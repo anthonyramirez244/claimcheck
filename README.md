@@ -10,6 +10,8 @@ Built for the MiraFlores AI case study. The written explanation is in `WRITEUP.m
 
 The web app (`streamlit_app.py`) runs the same `claimcheck` package as the command line. It adds no checking logic of its own. Pick a sample draft or edit the text, choose fact sheets, and click **Run check**. Every demo case below is available from the sample menu, including the invalid inputs.
 
+**Keep the featured nonprofit's fact sheet checked.** The sample drafts all feature Harbor Pathways (their front matter says `featured_org: harbor-pathways`), so the Harbor Pathways sheet must be selected. If only Harbor City Gives is checked, the tool stops with an INPUT ERROR instead of checking the draft against the wrong organization's facts. This is intentional: a confident report built on the wrong facts would be worse than no report. It is invalid-input case 4 in the table below.
+
 Run the web app locally:
 
 ```bash
