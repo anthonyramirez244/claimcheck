@@ -1,0 +1,339 @@
+{
+  "draft": "samples/drafts/spotlight_draft.md",
+  "ready": false,
+  "llm_mode": "mock",
+  "blocking_count": 3,
+  "results": [
+    {
+      "claim": {
+        "id": "C1",
+        "literal": "over $2.3 million",
+        "value": 2300000.0,
+        "kind": "money",
+        "qualifier": "at_least",
+        "precision": 100000.0,
+        "sentence": "Last year, Harbor City Gives raised over $2.3 million for 270 local nonprofits, and this year we want to go even further!",
+        "context": "Harbor City Gives raised over $2.3 million for 270 local nonprofits",
+        "line": 8
+      },
+      "status": "SUPPORTED",
+      "fact": {
+        "id": "harbor-city-gives:f1",
+        "org_id": "harbor-city-gives",
+        "org_name": "Harbor City Gives",
+        "statement": "The 2025 campaign raised $2,342,349.",
+        "value": 2342349.0,
+        "kind": "money",
+        "comparator": "exact",
+        "type": "achievement",
+        "keywords": [
+          "raised",
+          "last year",
+          "record",
+          "campaign"
+        ],
+        "source": "Harbor City Gives 2025 results announcement (synthetic)"
+      },
+      "notes": [],
+      "candidates": [],
+      "matched_by": "rules"
+    },
+    {
+      "claim": {
+        "id": "C2",
+        "literal": "270",
+        "value": 270.0,
+        "kind": "count",
+        "qualifier": "exact",
+        "precision": 0.0,
+        "sentence": "Last year, Harbor City Gives raised over $2.3 million for 270 local nonprofits, and this year we want to go even further!",
+        "context": "Harbor City Gives raised over $2.3 million for 270 local nonprofits",
+        "line": 8
+      },
+      "status": "SUPPORTED",
+      "fact": {
+        "id": "harbor-city-gives:f2",
+        "org_id": "harbor-city-gives",
+        "org_name": "Harbor City Gives",
+        "statement": "The 2025 campaign supported 270 local nonprofits.",
+        "value": 270.0,
+        "kind": "count",
+        "comparator": "exact",
+        "type": "achievement",
+        "keywords": [
+          "nonprofit",
+          "organization"
+        ],
+        "source": "Harbor City Gives 2025 results announcement (synthetic)"
+      },
+      "notes": [],
+      "candidates": [],
+      "matched_by": "rules"
+    },
+    {
+      "claim": {
+        "id": "C3",
+        "literal": "more than 500",
+        "value": 500.0,
+        "kind": "count",
+        "qualifier": "at_least",
+        "precision": 0.0,
+        "sentence": "Since 2023, we've placed more than 500 young adults in careers with family-sustaining wages.",
+        "context": "we've placed more than 500 young adults in careers with family-sustaining wages.",
+        "line": 10
+      },
+      "status": "MISMATCH",
+      "fact": {
+        "id": "harbor-pathways:f1",
+        "org_id": "harbor-pathways",
+        "org_name": "Harbor Pathways",
+        "statement": "Harbor Pathways has placed more than 450 young adults in jobs since 2023.",
+        "value": 450.0,
+        "kind": "count",
+        "comparator": "at_least",
+        "type": "achievement",
+        "keywords": [
+          "placed",
+          "hired",
+          "young adult"
+        ],
+        "source": "Harbor Pathways 2025 Impact Report, p. 2 (synthetic)"
+      },
+      "notes": [
+        "Source only supports more than 450.",
+        "First-person wording makes the publisher (harbor-city-gives) sound like it achieved this. This result belongs to Harbor Pathways; name them as the one who did it."
+      ],
+      "candidates": [],
+      "matched_by": "rules"
+    },
+    {
+      "claim": {
+        "id": "C4",
+        "literal": "92%",
+        "value": 92.0,
+        "kind": "percent",
+        "qualifier": "exact",
+        "precision": 0.0,
+        "sentence": "Harbor Pathways graduates stay: 92% were still employed one year after placement.",
+        "context": "92% were still employed one year after placement.",
+        "line": 12
+      },
+      "status": "SUPPORTED",
+      "fact": {
+        "id": "harbor-pathways:f2",
+        "org_id": "harbor-pathways",
+        "org_name": "Harbor Pathways",
+        "statement": "92% of placed participants were still employed one year after placement.",
+        "value": 92.0,
+        "kind": "percent",
+        "comparator": "exact",
+        "type": "achievement",
+        "keywords": [
+          "employed",
+          "one year",
+          "retention",
+          "still working",
+          "stay"
+        ],
+        "source": "Harbor Pathways 2025 Impact Report, p. 3 (synthetic)"
+      },
+      "notes": [],
+      "candidates": [],
+      "matched_by": "rules"
+    },
+    {
+      "claim": {
+        "id": "C5",
+        "literal": "$250,000",
+        "value": 250000.0,
+        "kind": "money",
+        "qualifier": "exact",
+        "precision": 0.0,
+        "sentence": "This Giving Day, Harbor Pathways is raising $250,000 to give 10 young adults a complete career pathway, including training, mentorship and job placement.",
+        "context": "Harbor Pathways is raising $250,000 to give 10 young adults a complete career pathway",
+        "line": 14
+      },
+      "status": "MISMATCH",
+      "fact": {
+        "id": "harbor-pathways:f4",
+        "org_id": "harbor-pathways",
+        "org_name": "Harbor Pathways",
+        "statement": "2026 Giving Day goal: $25,000.",
+        "value": 25000.0,
+        "kind": "money",
+        "comparator": "exact",
+        "type": "goal",
+        "keywords": [
+          "goal",
+          "raise",
+          "raising",
+          "giving day"
+        ],
+        "source": "Campaign profile submitted to Harbor City Gives, Aug 2026 (synthetic)"
+      },
+      "notes": [
+        "Source says $25,000."
+      ],
+      "candidates": [],
+      "matched_by": "rules"
+    },
+    {
+      "claim": {
+        "id": "C6",
+        "literal": "10",
+        "value": 10.0,
+        "kind": "count",
+        "qualifier": "exact",
+        "precision": 0.0,
+        "sentence": "This Giving Day, Harbor Pathways is raising $250,000 to give 10 young adults a complete career pathway, including training, mentorship and job placement.",
+        "context": "Harbor Pathways is raising $250,000 to give 10 young adults a complete career pathway",
+        "line": 14
+      },
+      "status": "SUPPORTED",
+      "fact": {
+        "id": "harbor-pathways:f5",
+        "org_id": "harbor-pathways",
+        "org_name": "Harbor Pathways",
+        "statement": "The $25,000 goal funds complete career pathways for 10 young adults.",
+        "value": 10.0,
+        "kind": "count",
+        "comparator": "exact",
+        "type": "goal",
+        "keywords": [
+          "career pathway",
+          "complete",
+          "fund",
+          "young adult"
+        ],
+        "source": "Campaign profile submitted to Harbor City Gives, Aug 2026 (synthetic)"
+      },
+      "notes": [],
+      "candidates": [],
+      "matched_by": "rules"
+    },
+    {
+      "claim": {
+        "id": "C7",
+        "literal": "nearly 40",
+        "value": 40.0,
+        "kind": "count",
+        "qualifier": "nearly",
+        "precision": 0.0,
+        "sentence": "They work with nearly 40 local employers who are ready to hire.",
+        "context": "They work with nearly 40 local employers who are ready to hire.",
+        "line": 16
+      },
+      "status": "SUPPORTED",
+      "fact": {
+        "id": "harbor-pathways:f3",
+        "org_id": "harbor-pathways",
+        "org_name": "Harbor Pathways",
+        "statement": "Harbor Pathways partners with 38 local employers.",
+        "value": 38.0,
+        "kind": "count",
+        "comparator": "exact",
+        "type": "achievement",
+        "keywords": [
+          "employer",
+          "partner",
+          "local business",
+          "hiring partner"
+        ],
+        "source": "Harbor Pathways 2025 Impact Report, p. 4 (synthetic)"
+      },
+      "notes": [],
+      "candidates": [],
+      "matched_by": "rules"
+    },
+    {
+      "claim": {
+        "id": "C8",
+        "literal": "$2,500",
+        "value": 2500.0,
+        "kind": "money",
+        "qualifier": "exact",
+        "precision": 0.0,
+        "sentence": "Just $2,500 covers transportation for an entire cohort.",
+        "context": "Just $2,500 covers transportation for an entire cohort.",
+        "line": 18
+      },
+      "status": "UNSUPPORTED",
+      "fact": null,
+      "notes": [
+        "No fact on file covers this number. It may be a typo or an invented figure."
+      ],
+      "candidates": [],
+      "matched_by": "rules"
+    },
+    {
+      "claim": {
+        "id": "C9",
+        "literal": "10",
+        "value": 10.0,
+        "kind": "count",
+        "qualifier": "exact",
+        "precision": 0.0,
+        "sentence": "That's 10 lives changed.",
+        "context": "That's 10 lives changed.",
+        "line": 20
+      },
+      "status": "WARNING",
+      "fact": {
+        "id": "harbor-pathways:f5",
+        "org_id": "harbor-pathways",
+        "org_name": "Harbor Pathways",
+        "statement": "The $25,000 goal funds complete career pathways for 10 young adults.",
+        "value": 10.0,
+        "kind": "count",
+        "comparator": "exact",
+        "type": "goal",
+        "keywords": [
+          "career pathway",
+          "complete",
+          "fund",
+          "young adult"
+        ],
+        "source": "Campaign profile submitted to Harbor City Gives, Aug 2026 (synthetic)"
+      },
+      "notes": [
+        "Fact chosen by model (MOCKED: The 10 lives refers to the 10 young adults the campaign goal funds.)",
+        "Number verified by code. Confirm the model picked the right fact."
+      ],
+      "candidates": [],
+      "matched_by": "model"
+    },
+    {
+      "claim": {
+        "id": "C10",
+        "literal": "$100,000",
+        "value": 100000.0,
+        "kind": "money",
+        "qualifier": "exact",
+        "precision": 0.0,
+        "sentence": "During Match Week, every gift is matched up to $100,000, so your donation goes twice as far!",
+        "context": "every gift is matched up to $100,000",
+        "line": 22
+      },
+      "status": "SUPPORTED",
+      "fact": {
+        "id": "harbor-city-gives:f3",
+        "org_id": "harbor-city-gives",
+        "org_name": "Harbor City Gives",
+        "statement": "During Match Week, gifts are matched up to $100,000 by the Seabright Foundation.",
+        "value": 100000.0,
+        "kind": "money",
+        "comparator": "exact",
+        "type": "context",
+        "keywords": [
+          "match",
+          "matched",
+          "match week"
+        ],
+        "source": "2026 sponsor agreement summary (synthetic)"
+      },
+      "notes": [],
+      "candidates": [],
+      "matched_by": "rules"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "_note": "SYNTHETIC DATA. Harbor Pathways is a fictional nonprofit modeled on a real workforce program. All figures are invented for this demo.",
+  "org_id": "harbor-pathways",
+  "org_name": "Harbor Pathways",
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Harbor Pathways has placed more than 450 young adults in jobs since 2023.",
+      "value": 450,
+      "kind": "count",
+      "comparator": "at_least",
+      "type": "achievement",
+      "keywords": [
+        "placed",
+        "hired",
+        "young adult"
+      ],
+      "source": "Harbor Pathways 2025 Impact Report, p. 2 (synthetic)"
+    },
+    {
+      "id": "f2",
+      "statement": "92% of placed participants were still employed one year after placement.",
+      "value": 92,
+      "kind": "percent",
+      "type": "achievement",
+      "keywords": [
+        "employed",
+        "one year",
+        "retention",
+        "still working",
+        "stay"
+      ],
+      "source": "Harbor Pathways 2025 Impact Report, p. 3 (synthetic)"
+    },
+    {
+      "id": "f3",
+      "statement": "Harbor Pathways partners with 38 local employers.",
+      "value": 38,
+      "kind": "count",
+      "type": "achievement",
+      "keywords": [
+        "employer",
+        "partner",
+        "local business",
+        "hiring partner"
+      ],
+      "source": "Harbor Pathways 2025 Impact Report, p. 4 (synthetic)"
+    },
+    {
+      "id": "f4",
+      "statement": "2026 Giving Day goal: $25,000.",
+      "value": 25000,
+      "kind": "money",
+      "type": "goal",
+      "keywords": [
+        "goal",
+        "raise",
+        "raising",
+        "giving day"
+      ],
+      "source": "Campaign profile submitted to Harbor City Gives, Aug 2026 (synthetic)"
+    },
+    {
+      "id": "f5",
+      "statement": "The $25,000 goal funds complete career pathways for 10 young adults.",
+      "value": 10,
+      "kind": "count",
+      "type": "goal",
+      "keywords": [
+        "career pathway",
+        "complete",
+        "fund",
+        "young adult"
+      ],
+      "source": "Campaign profile submitted to Harbor City Gives, Aug 2026 (synthetic)"
+    }
+  ]
+}

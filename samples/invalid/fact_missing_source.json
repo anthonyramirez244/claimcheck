@@ -1,0 +1,13 @@
+{
+  "org_id": "harbor-pathways",
+  "org_name": "Harbor Pathways",
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "Harbor Pathways has placed more than 450 young adults in jobs since 2023.",
+      "value": 450, "kind": "count", "comparator": "at_least", "type": "achievement",
+      "keywords": ["placed", "young adult"],
+      "source": ""
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "_note": "SYNTHETIC DATA. Harbor City Gives is a fictional community giving campaign. All figures are invented for this demo.",
+  "org_id": "harbor-city-gives",
+  "org_name": "Harbor City Gives",
+  "facts": [
+    {
+      "id": "f1",
+      "statement": "The 2025 campaign raised $2,342,349.",
+      "value": 2342349,
+      "kind": "money",
+      "type": "achievement",
+      "keywords": [
+        "raised",
+        "last year",
+        "record",
+        "campaign"
+      ],
+      "source": "Harbor City Gives 2025 results announcement (synthetic)"
+    },
+    {
+      "id": "f2",
+      "statement": "The 2025 campaign supported 270 local nonprofits.",
+      "value": 270,
+      "kind": "count",
+      "type": "achievement",
+      "keywords": [
+        "nonprofit",
+        "organization"
+      ],
+      "source": "Harbor City Gives 2025 results announcement (synthetic)"
+    },
+    {
+      "id": "f3",
+      "statement": "During Match Week, gifts are matched up to $100,000 by the Seabright Foundation.",
+      "value": 100000,
+      "kind": "money",
+      "type": "context",
+      "keywords": [
+        "match",
+        "matched",
+        "match week"
+      ],
+      "source": "2026 sponsor agreement summary (synthetic)"
+    }
+  ]
+}

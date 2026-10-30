@@ -1,0 +1,5 @@
+{
+  "_note": "MOCKED model replies, recorded so the demo runs without an API key. Keys are draft sentences; values are raw reply text exactly as the model would return it.",
+  "That's 10 lives changed.": "{\"fact_id\": \"harbor-pathways:f5\", \"reason\": \"The 10 lives refers to the 10 young adults the campaign goal funds.\"}",
+  "We've placed more than 450 young adults in jobs since 2023, and our alumni network has grown to 38.": "Sure! The alumni network number most likely refers to {\"fact_id\": \"harbor-pathways:f9\", \"reason\": \"alumni count\"}"
+}
