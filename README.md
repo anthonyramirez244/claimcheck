@@ -6,7 +6,7 @@ Built for the MiraFlores AI case study. The written explanation is in `WRITEUP.m
 
 ## Live demo
 
-**[LIVE URL GOES HERE]**
+**https://claimcheck-anthony.streamlit.app**
 
 The web app (`streamlit_app.py`) runs the same `claimcheck` package as the command line. It adds no checking logic of its own. Pick a sample draft or edit the text, choose fact sheets, and click **Run check**. Every demo case below is available from the sample menu, including the invalid inputs.
 
