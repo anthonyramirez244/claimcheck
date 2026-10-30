@@ -53,19 +53,7 @@ with st.sidebar:
         "fact sheet before it's published, and flags posts where the publisher's \"we\" "
         "takes credit for a nonprofit's results."
     )
-    st.markdown(
-        "**How it decides**\n"
-        "1. Code finds every number and its qualifier (\"more than\", \"nearly\").\n"
-        "2. Keywords in the same clause pick the fact it refers to.\n"
-        "3. Code checks the number with plain arithmetic.\n"
-        "4. Only when the wording is vague, a model picks which fact is meant. "
-        "It never supplies a number, and code still checks the value."
-    )
-    st.caption(
-        "All sample data is synthetic. Harbor Pathways, Harbor City Gives and the Seabright "
-        "Foundation are fictional. The model step in this demo replays recorded replies (MOCKED)."
-    )
-    st.caption("Built by Anthony Ramirez for the MiraFlores AI case study.")
+    st.markdown((ROOT / "sidebar_help.md").read_text(encoding="utf-8"))
 
 st.title("claimcheck")
 st.write("Paste or pick a campaign draft, choose the fact sheets to check it against, then run the check.")
