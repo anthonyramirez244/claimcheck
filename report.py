@@ -1,4 +1,4 @@
-"""Render a Report as Markdown (for people) or JSON (for other tools)."""
+claimcheck/"""Render a Report as Markdown (for people) or JSON (for other tools)."""
 from __future__ import annotations
 
 import json
